@@ -1,5 +1,4 @@
 import React from "react";
-import widthDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
@@ -11,16 +10,17 @@ import enUS from 'date-fns/locale/en-US';
 import { eventsTest } from "@/components/events";
 
 const locales = {
-    'en-US': enUS,
-}
+    'en-US': enUS
+};
 
 const localizer = dateFnsLocalizer({
     format,
     parse,
     startOfWeek,
     getDay,
-    locales,
-})
+    locales
+});
+
 export default function AgendaPage() {
     return (
         <>
