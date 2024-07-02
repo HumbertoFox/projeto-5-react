@@ -1,8 +1,12 @@
 import React from 'react';
 import AgendaPage from './andenda';
+import Menu from '@/components/menu/menu';
 
 export default function Page() {
     return (
-        <AgendaPage />
+        <main>
+            <Menu />
+            <AgendaPage />
+        </main>
     );
 };
