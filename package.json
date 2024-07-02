@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^14.2.4",
     "@prisma/extension-pulse": "^1.1.0",
     "date-fns": "^3.6.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "moment": "^2.30.1",
     "next": "^14.2.4",
     "node": "^20.15.0",
